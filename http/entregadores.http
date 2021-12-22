@@ -1,0 +1,37 @@
+POST http://localhost:3000/entregadores
+Content-Type: application/json
+
+{
+    "nome": "João",
+    "veiculo": "bicicleta"
+}
+
+###
+
+POST http://localhost:3000/entregadores
+Content-Type: application/json
+
+{
+  "idUser": 1,
+  "nome": "Zé 2",
+  "cpfCnpj": "123456780",
+  "celular": null,
+  "email": "ze2@gmail.com",
+  "idade": null,
+  "endereco": null,
+  "numero": null,
+  "complemento": null,
+  "bairro": null,
+  "veiculo": "moto",
+  "placa": "iqr-7895"
+}
+
+###
+
+GET http://localhost:3000/entregadores
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/entregadores/user/1
+Content-Type: application/json

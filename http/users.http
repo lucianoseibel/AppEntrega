@@ -1,0 +1,14 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "login": "luciano",
+    "password": "123456",
+    "type": "admin"
+}
+
+###
+
+GET http://localhost:3000/users
+Content-Type: application/json
+
